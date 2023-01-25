@@ -73,6 +73,7 @@
             "OrangeHRM\\LDAP\\": "./plugins/orangehrmLDAPAuthenticationPlugin",
             "OrangeHRM\\SystemCheck\\": "./plugins/orangehrmSystemCheckPlugin",
             "OrangeHRM\\Installer\\": "../installer",
+            "OrangeHRM\\Fingerspot\\": "./plugins/orangehrmFingerspotPlugin",
             "OrangeHRM\\Entity\\": [
                 "./plugins/orangehrmAdminPlugin/entity",
                 "./plugins/orangehrmPerformancePlugin/entity",
@@ -87,7 +88,8 @@
                 "./plugins/orangehrmRecruitmentPlugin/entity",
                 "./plugins/orangehrmCorporateBrandingPlugin/entity",
                 "./plugins/orangehrmLDAPAuthenticationPlugin/entity",
-                "./plugins/orangehrmBuzzPlugin/entity"
+                "./plugins/orangehrmBuzzPlugin/entity",
+                "./plugins/orangehrmFingerspotPlugin/entity"
             ]
         }
     },
@@ -110,7 +112,8 @@
             "OrangeHRM\\Tests\\CorporateBranding\\": "./plugins/orangehrmCorporateBrandingPlugin/test",
             "OrangeHRM\\Tests\\Dashboard\\": "./plugins/orangehrmDashboardPlugin/test",
             "OrangeHRM\\Tests\\LDAP\\": "./plugins/orangehrmLDAPAuthenticationPlugin/test",
-            "OrangeHRM\\Tests\\Buzz\\": "./plugins/orangehrmBuzzPlugin/test"
+            "OrangeHRM\\Tests\\Buzz\\": "./plugins/orangehrmBuzzPlugin/test",
+            "OrangeHRM\\Tests\\Fingerspot\\": "./plugins/orangehrmFingerspotPlugin/test"
         }
     },
     "scripts": {

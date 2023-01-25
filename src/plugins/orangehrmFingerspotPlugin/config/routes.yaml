@@ -1,0 +1,21 @@
+
+apiv2_fingerspot_FingerspotAttendance:
+  path: /api/v2/fingerspot/fingerspotAttendance
+  controller: OrangeHRM\Core\Controller\Rest\V2\GenericRestController::handle
+  methods: [ GET, POST, DELETE ]
+  defaults:
+    _api: OrangeHRM\Fingerspot\Api\FingerspotAttendanceAPI
+
+##########################
+#        Screens
+##########################
+
+fingerspot_module:
+  path: /fingerspot/viewFingerspotModule
+  controller: OrangeHRM\Fingerspot\Controller\FingerspotModuleController::handle
+  methods: [ GET ]
+
+fingerspot_view_fingerspot_attendance_list:
+  path: /fingerspot/viewFingerspotAttendanceList
+  controller: OrangeHRM\Fingerspot\Controller\FingerspotAttendanceController::handle
+  methods: [ GET ]

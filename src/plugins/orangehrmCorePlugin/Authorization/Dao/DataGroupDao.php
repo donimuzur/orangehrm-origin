@@ -120,7 +120,7 @@ class DataGroupDao extends BaseDao
                 ->setParameter('userRoleNames', $roleNames);
             $q->andWhere('ap.apiName = :apiClassName')
                 ->setParameter('apiClassName', $apiClassName);
-
+            $a = $q->getQuery()->getSQL();
             return $q->getQuery()->execute();
         } catch (Exception $e) {
             throw new DaoException($e->getMessage(), $e->getCode(), $e);
